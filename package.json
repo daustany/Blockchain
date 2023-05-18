@@ -1,0 +1,25 @@
+{
+  "name": "blockcore",
+  "license": "MIT",
+  "author": {
+    "name": "Blockcore",
+    "email": "post@blockcore.net",
+    "url": "https://www.blockcore.net"
+  },
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/block-core/blockcore.git"
+  },
+  "bugs": {
+    "url": "https://github.com/block-core/blockcore/issues"
+  },
+  "homepage": "https://github.com/block-core/blockcore#readme",
+  "scripts": {
+    "version": "node version.js",
+    "changelog": "conventional-changelog -i CHANGELOG.md -s -r 1 && git add CHANGELOG.md"
+  },
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {}
+}
